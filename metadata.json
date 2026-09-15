@@ -1,0 +1,6 @@
+{
+  "name": "Studio 9P - Welcome to the Internet",
+  "description": "Studio 9P digital creative studio — Welcome to the internet, we will be your guide. Featuring interactive internet memes, retro wireframe visuals, and digital showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

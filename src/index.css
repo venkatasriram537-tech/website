@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-scroll-left {
+    animation: scrollLeft linear infinite;
+  }
+
+  .animate-scroll-right {
+    animation: scrollRight linear infinite;
+  }
+}
+
+/* Custom scrollbar matching Studio 9P dark aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+  border: 1px solid #3f3f46;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
